@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Play&subset=cyrillic,cyrillic-ext');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, 
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+ caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+pre{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+body{
+	background-color: #E0F3FB;
+	margin: 0 auto;
+	width: 100%;
+        height: 100%;
+}
+
+.center_header{
+	display:block;
+	height: 30px;
+	width:100%;
+	padding-top: 3px;
+	text-decoration: none;
+	color:black;
+	position:relative;
+}
+
+.center_header:hover{
+	background-color: #23B8F6;
+}
+
+#header{
+	position: relative;
+	width: 100%;
+	background-color: #00C5FF;
+	text-align: center;
+	font-family: "Play", san-self;
+	font-size:27px;
+}
+
+#poisk{
+	text-align: center;
+	border: solid 1px;
+	border-radius: 6px;
+	font-size : 20px;
+	margin : auto;
+	height:300px;
+	width : 600px;
+	position : relative;
+	background-color : #F6FBFE;
+	margin-top: 100px;
+	padding-top : 20px;
+	font-family: "Play", san-self;
+}
+
+.New_Sub {
+    width:150px;
+    margin: auto;
+    padding: 10px 19px;
+    font-size: 17px;
+    line-height: 1.471;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #34495e;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4;
+    border: none;
+    border-radius: 4px;
+    -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+    transition: border .25s linear, color .25s linear, background-color .25s linear;
+    -webkit-font-smoothing: subpixel-antialiased;
+    display: block;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+    padding: 4px 13px 4px 13px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    height: 30px;
+}
+.New_Sub_Mail{
+    float:right;
+    width:200px;
+    margin: auto;
+    padding: 10px 19px;
+    font-size: 17px;
+    line-height: 1.471;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #34495e;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4;
+    border: none;
+    border-radius: 4px;
+    -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+    transition: border .25s linear, color .25s linear, background-color .25s linear;
+    -webkit-font-smoothing: subpixel-antialiased;
+    display: block;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+    padding: 4px 13px 4px 13px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    height: 30px;
+    left: 0; bottom: 0;
+}
+
+
+
+#Podval{
+    background-color: #67E97F;
+    font-family: "Play";
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    width: 100%; /* Ширина слоя */
+    font-size: 18px;
+    text-align: center;
+   }
+   
+   #Menu_mail{
+        text-align: center;
+	border: solid 1px;
+	border-radius: 6px;
+	font-size : 18px;
+	margin : auto;
+	height:330px;
+	width : 650px;
+	position : relative;
+	background-color : #F6FBFE;
+	margin-top: 100px;
+	padding-top : 20px;
+	font-family: "Play", san-self;
+   }
+   #MAIL{
+       width: 250px;
+   }
+   #CB{
+       resize: none;
+       width: 500px;
+       height: 160px;
+   }   
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+a:active{
+    color: black;
+    text-decoration: none;
+}
+.New_Su:active{
+    text-decoration: none;
+}
+.New_Suu{
+    width: 100px;
+    text-decoration: none;
+}
+
+
